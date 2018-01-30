@@ -76,12 +76,21 @@ IRkernel::installspec()
 :bulb:  Any line starting with a '%' will be interpreted by Ipython as a special magic function, they allow you to control the behaviour of Ipython itself.
 These functions are very useful, the most popular are:
 
+* Time
 ```python
 %%time
 ```
 
 Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
-   
+
+* Unix/powershell command
+```python
+!ls -la
+!pip install nltk
+```
+
+Which enables to run a unix command directly in the Notbook
+
    - Iwidgets
    - Jupyter and spark
