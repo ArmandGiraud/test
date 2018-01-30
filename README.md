@@ -77,7 +77,9 @@ IRkernel::installspec()
 These functions are very useful, the most popular are:
 
 ```python
-%%time```
+%%time
+```
+
 Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
    
