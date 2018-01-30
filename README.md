@@ -72,7 +72,7 @@ IRkernel::installspec()
 
    - Magic functions
    The Ipython notebook is an enhanced version of python where you can do much more.
-   The best way to know all its features is to explore the [official CookBook](https://github.com/ipython/ipython/wiki/Cookbook%3A- Index) or the [Ipython.org Tip & Tricks](https://ipython.org/ipython-doc/3/interactive/tips.html#tips).
+   The best way to know all its features is to explore the [Official CookBook](https://github.com/ipython/ipython/wiki/Cookbook%3A-Index) or the [Ipython.org Tip & Tricks](https://ipython.org/ipython-doc/3/interactive/tips.html#tips).
 
 
    
