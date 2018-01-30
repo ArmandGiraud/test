@@ -75,7 +75,10 @@ IRkernel::installspec()
    
 :bulb:  Any line starting with a '%' will be interpreted by Ipython as a special magic function, they allow you to control the behaviour of Ipython itself.
 These functions are very useful, the most popular are:
- %%time enable to record the Running time of a single cell.
+
+```python
+%%time```
+Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
    
    - Iwidgets
