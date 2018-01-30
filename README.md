@@ -56,7 +56,8 @@ The Jupyter enables basic 3 modes for cells:
  - Raw cells
  
  :+1: A few useful shortcuts are (beware some of them are os dependant):  
-  - 
+  - ***displays all shortcuts:***  press ```H``` while in command mode (cell is selected in blue).
+  
  
 
 #### Adding a new kernel
