@@ -73,9 +73,10 @@ IRkernel::installspec()
    The Ipython notebook is an enhanced version of python where you can do much more.
    The best way to know all its features is to explore the [Official CookBook](https://github.com/ipython/ipython/wiki/Cookbook%3A- Index) or the [Ipython.org Tip & Tricks](https://ipython.org/ipython-doc/3/interactive/tips.html#tips).
    
-   
-
-
-   
+:bulb:  Any line starting with a '%' will be interpreted by Ipython as a special magic function, they allow you to control the behaviour of Ipython itself.
+These functions are very useful, the most popular are:
+ %%time enable to record the Running time of a single cell.
+![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
+   
    - Iwidgets
    - Jupyter and spark
