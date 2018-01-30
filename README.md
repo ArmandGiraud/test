@@ -10,6 +10,7 @@ Table of contents:
  - [Installation](#installation)
     1. locally
     2. On remote machine
+ - [Configuration](#configuration)
  - [Tip & tricks](#tip--tricks)
     - [Adding a new kernel](#adding-a-new-kernel)
     - [Adding a new language](#adding-a-new-programming-language)
@@ -37,11 +38,20 @@ Table of contents:
 
 ... TO DO ..
 
-
 On a remote machine run ```jupyter notebook --no-browser --ip your.server.ip --port your.local.port```
 and jupyter should be available at your.server.ip:your.local.port on any browser. (on production might use some tunneling)
 
 
+
+---
+### Configuration:
+
+The notebook server can be run with a [variety of command line arguments](http://jupyter-notebook.readthedocs.io/en/stable/config.html#options).
+```$ jupyter notebook --help``` to get the list of possible options.
+
+The configuration file enables to control the behaviour of jupyter, for example adding a password to proctect your jupyter session.
+```$ jupyter notebook --generate-config```
+command creates a default config file. 
 
 ---
 ### Tip & Tricks
