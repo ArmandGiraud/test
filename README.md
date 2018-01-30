@@ -40,6 +40,7 @@ Table of contents:
 ### Tip & Tricks
 
 #### Adding a new kernel
+![alt text](https://i.stack.imgur.com/RGnZT.png)
 You can directly refer to [the Docs](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) for more infos
 The default kernel for Jupyter is [Ipython](https://ipython.readthedocs.io/en/latest/) but some custom kernels can be added:
 
@@ -56,8 +57,15 @@ You can make a kernel for any of your venv...
 To add a programming language on jupyter you will can also install a new kernel 
 Originally Jupyter was intended to support **Ju**lia **Pyt**hon and **R** (Jupyter), now the [list of available kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) is much longer including for example [**Scala**](https://github.com/jupyter-scala/jupyter-scala#quick-start),  [**Lua**](https://github.com/pakozm/IPyLua) and [**C#**](https://github.com/zabirauf/icsharp)
 
-:flashlight: For linking R with your Jupyter:
+:flashlight: [Irkernel](https://irkernel.github.io/installation/) For linking R with your Jupyter:
 
+In a R console (preferably in R console launched from a terminal):
+```R
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+devtools::install_github('IRkernel/IRkernel')
+IRkernel::installspec()
+```
+This should add a display 
    - Jupyter and spark
    - Magic functions
    - Iwidgets
