@@ -96,6 +96,12 @@ Press Tab after the name of a variable, function or class, to display the differ
 You can also navigate through your system files just by adding a string..
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/tab_completion.png)
 
+* inline documentation:
+
+```python
+str.join?
+```
+The syntax ```function?``` will display an inline documentation popup for the function or class you are using, this allows to rapidly know the function/class parameters.
 
 * Unix/powershell command
 ```python
