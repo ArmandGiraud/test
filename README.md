@@ -66,10 +66,15 @@ install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtool
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
-This should add a Display Name to the dropdown menu:
+**This should add a Display Name to the dropdown menu:**
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/ipy4_demo.png)
 
-   - Jupyter and spark
+
    - Magic functions
-   - Iwidgets
+   The Ipython notebook is an enhanced version of python where you can do much more.
+   The best way to know all its features is to explore the [official CookBook](https://github.com/ipython/ipython/wiki/Cookbook%3A- Index) or the [Ipython.org Tip & Tricks](https://ipython.org/ipython-doc/3/interactive/tips.html#tips).
+
+
    
+   - Iwidgets
+   - Jupyter and spark
