@@ -1,4 +1,4 @@
-# ![alt text](http://jupyter.org/assets/main-logo.svg) Jupyter Doc
+# ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/jupyter.svg) Jupyter Doc
 
 
 
@@ -40,7 +40,8 @@ Table of contents:
 ### Tip & Tricks
 
 #### Adding a new kernel
-![alt text](https://i.stack.imgur.com/RGnZT.png)
+![alt text](https://github.com/ArmandGiraud/test/blob/master/img/change_kernel.PNG)
+
 You can directly refer to [the Docs](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) for more infos
 The default kernel for Jupyter is [Ipython](https://ipython.readthedocs.io/en/latest/) but some custom kernels can be added:
 
@@ -66,6 +67,8 @@ devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
 This should add a Display Name to the dropdown menu:
+![alt text](https://github.com/ArmandGiraud/test/blob/master/img/ipy4_demo.png)
+
    - Jupyter and spark
    - Magic functions
    - Iwidgets
