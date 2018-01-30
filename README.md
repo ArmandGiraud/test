@@ -37,19 +37,20 @@ Table of contents:
 ### Tip & Tricks
 
 #### Adding a new kernel
-You can directly refer to [the Docs](http://jupyter.readthedocs.io/en/latest/install-kernel.html) for more infos
+You can directly refer to [the Docs](https://ipython.readthedocs.io/en/latest/install/kernel_install.html) for more infos
 The default kernel for Jupyter is [Ipython](https://ipython.readthedocs.io/en/latest/) but some custom kernels can be added:
 
-The recommended way is to make a conda virtual env and install ipykernel inside
+The recommended way is to make a conda virtual env and install [ipykernel](https://github.com/ipython/ipykernel) inside
 
 ```bash
 conda create -n ipykernel_py2 python=2 ipykernel
 source activate ipykernel_py2    # On Windows, remove the word 'source'
 python -m ipykernel install --user
 ```
+You can make a kernel for any of your venv... 
 
 
-    - Adding a new language
-    - Jupyter and spark
-    - Magic functions
-    - Iwidgets
+   - Adding a new language
+   - Jupyter and spark
+   - Magic functions
+   - Iwidgets
