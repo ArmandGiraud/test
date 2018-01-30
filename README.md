@@ -48,10 +48,16 @@ and jupyter should be available at your.server.ip:your.local.port on any browser
 #### Basic Tutorial
 
 To explore the basic Jupyter notebook (Execution & shortcuts) many tutorials are available on the web.
+Visit the [jupyter UI tour](http://jupyter-notebook.readthedocs.io/en/stable/ui_components.html#)
+
 The Jupyter enables basic 3 modes for cells: 
  - Code (default): wtrite python code in cell then press ```Ctrl + enter``` to execute, you should see the output below.
  - Markdown ```Esc + M``` to convert the cell type in [markdown](http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). you can also add directly html code in cells this is useful if you want to customize the cells like adding images and formatting cells.
  - Raw cells
+ 
+ :+1: A few useful shortcuts are (beware some of them are os dependant):  
+  - 
+ 
 
 #### Adding a new kernel
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/change_kernel.PNG)
