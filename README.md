@@ -1,7 +1,6 @@
-# Jupyter Doc
+# ![alt text](http://jupyter.org/assets/main-logo.svg) Jupyter Doc
 
-![alt text](http://jupyter.org/assets/nav_logo.svg)
-![alt text](http://jupyter.org/assets/main-logo.svg)
+
 
 :link: [The official site](http://jupyter.org/)
 
