@@ -29,7 +29,7 @@ Table of contents:
  
  ```pip3 install jupyter```
  
- :runner: Just launch ``` jupyter notebook``` from a shell and the notebook listens by default on ```localhost:8888``` 
+ :runner: Just launch ``` jupyter notebook``` from a shell and the notebook listens by default on ```localhost:8888```
  
  **2. On remote machine:**
  
@@ -45,6 +45,13 @@ and jupyter should be available at your.server.ip:your.local.port on any browser
 
 ---
 ### Tip & Tricks
+#### Basic Tutorial
+
+To explore the basic Jupyter notebook (Execution & shortcuts) many tutorials are available on the web.
+The Jupyter enables basic 3 modes for cells: 
+ - Code (default): wtrite python code in cell then press ```Ctrl + enter``` to execute, you should see the output below.
+ - Markdown ```Esc + M``` to convert the cell type in [markdown](http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html). you can also add directly html code in cells this is useful if you want to customize the cells like adding images and formatting cells.
+ - Raw cells
 
 #### Adding a new kernel
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/change_kernel.PNG)
@@ -120,11 +127,20 @@ Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
 Which enables to run a unix command directly in the Notbook
 
-* Time
+* matplotlib inline
 ```python
 In [1]: %%matplotlib inline
 ```
 The output of plotting commands is displayed inline, which means having embeeded plots and visualisations
 
+* lateX
+
+```python
+In [1]: %%latex
+```
+The latex magic enables to have equation in cells without having to write the ```$$``` wrapper for each line
+
+
    - Iwidgets
+   
    - Jupyter and spark
