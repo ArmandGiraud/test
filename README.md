@@ -1,5 +1,8 @@
 # Jupyter Doc
 
+![alt text](http://jupyter.org/assets/nav_logo.svg)
+![alt text](http://jupyter.org/assets/main-logo.svg)
+
 :link: [The official site](http://jupyter.org/)
 
 :green_book: [Read the Doc](http://jupyter-notebook.readthedocs.io/en/stable/)
@@ -56,3 +59,4 @@ Originally Jupyter was intended to support **Ju**lia **Pyt**hon and **R** (Jupyt
    - Jupyter and spark
    - Magic functions
    - Iwidgets
+   
