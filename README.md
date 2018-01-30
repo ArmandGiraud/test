@@ -103,6 +103,12 @@ Press Tab after the name of a variable, function class, to display the different
 ```
 to run an external file without importing.
 
+* load_ext
+```python 
+In [1]: %load_ext autoreload
+In [2]: %autoreload 2
+```
+
 Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
 Which enables to run a unix command directly in the Notbook
