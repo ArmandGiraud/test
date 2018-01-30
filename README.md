@@ -13,8 +13,7 @@ Table of contents:
  - [Tip & tricks](#tip--tricks)
     - [Adding a new kernel](#adding-a-new-kernel)
     - [Adding a new language](#adding-a-new-programming-language)
-    - Jupyter and spark
-    - Magic functions
+    - [Magic functions](#magic-functions)
     - Iwidgets
     
  
@@ -70,7 +69,7 @@ IRkernel::installspec()
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/ipy4_demo.png)
 
 
-   - Magic functions
+#### Magic functions
    The Ipython notebook is an enhanced version of python where you can do much more.
    The best way to know all its features is to explore the [Official CookBook](https://github.com/ipython/ipython/wiki/Cookbook%3A-Index) or the [Ipython.org Tip & Tricks](https://ipython.org/ipython-doc/3/interactive/tips.html#tips).
 
