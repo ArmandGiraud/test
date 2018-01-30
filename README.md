@@ -65,7 +65,7 @@ install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtool
 devtools::install_github('IRkernel/IRkernel')
 IRkernel::installspec()
 ```
-This should add a display 
+This should add a Display Name to the dropdown menu:
    - Jupyter and spark
    - Magic functions
    - Iwidgets
