@@ -89,17 +89,17 @@ Press Tab after the name of a variable, function class, to display the different
 
 * Unix/powershell command
 ```python
-!ls -la
-!pip install nltk
+In [1]: !ls -la
+In [2]: !pip install nltk
 ```
 
 * Time
 ```python
-%%time
+In [1]: %%time
 ```
 * Run
 ```python
-%run foo.py
+In [1]: %run foo.py
 ```
 to run an external file without importing.
 
