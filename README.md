@@ -157,6 +157,9 @@ In [1]: %%latex
 The latex magic enables to have equation in cells without having to write the ```$$``` wrapper for each line
 
 
-   - Iwidgets
+   - [Ipywidgets](https://ipywidgets.readthedocs.io/en/stable)
    
-   - Jupyter and spark
+   The ipywidgets are a series of embedded ipywidgets, very useful for demo purposes. 
+   ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/interact.PNG)
+   
+   - Jupyter and Spark
