@@ -89,6 +89,7 @@ Press Tab after the name of a variable, function or class, to display the differ
 You can also navigate through your system files just by adding a string..
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/tab_completion.png)
 
+
 * Unix/powershell command
 ```python
 In [1]: !ls -la
