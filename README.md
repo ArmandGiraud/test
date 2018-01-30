@@ -85,7 +85,9 @@ IRkernel::installspec()
 These functions are very useful, the most popular are:
 
 * Tab Completion
-Press Tab after the name of a variable, function class, to display the different options..
+Press Tab after the name of a variable, function or class, to display the different options..
+You can also navigate through your system files just by adding a string..
+![alt text](https://github.com/ArmandGiraud/test/blob/master/img/tab_completion.png)
 
 * Unix/powershell command
 ```python
@@ -93,10 +95,6 @@ In [1]: !ls -la
 In [2]: !pip install nltk
 ```
 
-* Time
-```python
-In [1]: %%time
-```
 * Run
 ```python
 In [1]: %run foo.py
@@ -108,10 +106,24 @@ to run an external file without importing.
 In [1]: %load_ext autoreload
 In [2]: %autoreload 2
 ```
+%load_ext enables to load an extension
+and %autoreload 2 reload all module before execution
+This enables to modify the script of an imported python file/module.
+
+* Time
+```python
+In [1]: %%time
+```
 
 Which enable to record the Running time of a single cell.
 ![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
 Which enables to run a unix command directly in the Notbook
+
+* Time
+```python
+In [1]: %%matplotlib inline
+```
+The output of plotting commands is displayed inline, which means having embeeded plots and visualisations
 
    - Iwidgets
    - Jupyter and spark
