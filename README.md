@@ -29,7 +29,7 @@ Table of contents:
  
  ```pip3 install jupyter```
  
- :runner: Just launch ```bash jupyter notebook``` from a shell and the notebook listens by default on ```localhost:8888``` 
+ :runner: Just launch ``` jupyter notebook``` from a shell and the notebook listens by default on ```localhost:8888``` 
  
  **2. On remote machine:**
  
@@ -38,7 +38,7 @@ Table of contents:
 ... TO DO ..
 
 
-On a remote machine run ```bash jupyter notebook --no-browser --ip your.server.ip --port your.local.port```
+On a remote machine run ```jupyter notebook --no-browser --ip your.server.ip --port your.local.port```
 and jupyter should be available at your.server.ip:your.local.port on any browser. (on production might use some tunneling)
 
 
