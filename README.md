@@ -34,6 +34,7 @@ Table of contents:
 
 ... TO DO ..
 
+---
 ### Tip & Tricks
 
 #### Adding a new kernel
@@ -49,8 +50,9 @@ python -m ipykernel install --user
 ```
 You can make a kernel for any of your venv... 
 
-
-   - Adding a new language
+#### Adding a new programming language R & Julia
+To add a programming language on jupyter you will also have to install a new kernel
+Originally Jupyter was intended to support **Ju**lia **Pyt**hon and **R** (Jupyter), now the [list of available kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) is much longer.
    - Jupyter and spark
    - Magic functions
    - Iwidgets
