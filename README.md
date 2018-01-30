@@ -29,11 +29,19 @@ Table of contents:
  
  ```pip3 install jupyter```
  
+ :runner: Just launch ```bash jupyter notebook``` from a shell and the notebook listens by default on ```localhost:8888``` 
+ 
  **2. On remote machine:**
  
 - Use the [JupyterHub](https://github.com/jupyterhub/jupyterhub) on Production environment:
 
 ... TO DO ..
+
+
+On a remote machine run ```bash jupyter notebook --no-browser --ip your.server.ip --port your.local.port```
+and jupyter should be available at your.server.ip:your.local.port on any browser. (on production might use some tunneling)
+
+
 
 ---
 ### Tip & Tricks
@@ -76,13 +84,8 @@ IRkernel::installspec()
 :bulb:  Any line starting with a '%' will be interpreted by Ipython as a special magic function, they allow you to control the behaviour of Ipython itself.
 These functions are very useful, the most popular are:
 
-* Time
-```python
-%%time
-```
-
-Which enable to record the Running time of a single cell.
-![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
+* Tab Completion
+Press Tab after the name of a variable, function class, to display the different options..
 
 * Unix/powershell command
 ```python
@@ -90,6 +93,18 @@ Which enable to record the Running time of a single cell.
 !pip install nltk
 ```
 
+* Time
+```python
+%%time
+```
+* Run
+```python
+%run foo.py
+```
+to run an external file without importing.
+
+Which enable to record the Running time of a single cell.
+![alt text](https://github.com/ArmandGiraud/test/blob/master/img/time.PNG)
 Which enables to run a unix command directly in the Notbook
 
    - Iwidgets
